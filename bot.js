@@ -22,7 +22,7 @@ client.on("message", msg => {
         msg.reply("Pong!") //replies with the user's name
     }
 
-    if(msg.content === "i love csk") {
+    if(msg.content === "i love csk") { //lolol
         msg.react("❤️") 
     }
  
